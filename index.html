@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yiru Wang's Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="noise"></div>
+    <div class="overlay"></div>
+    
+    <header>
+        <div class="terminal-nav">
+            <div class="terminal-prompt">
+                <span class="terminal-user">my@portfolio</span>:<span class="terminal-path">~/resume</span>$ <span class="terminal-cursor">_</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#education">education</a></li>
+                    <li><a href="#experience">experience</a></li>
+                    <li><a href="#projects">projects</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <div class="glitch-wrapper">
+                    <h1 class="glitch" data-text="YIRU WANG">YIRU WANG</h1>
+                </div>
+                <h2 class="subtitle">COMPUTER SCIENCE STUDENT <span class="accent">|</span> SOFTWARE DEVELOPER <span class="accent">|</span> AI ENTHUSIAST</h2>
+                <div class="hero-description">
+                    <!-- do not change below line -->
+                    <p>Exploring <span class="highlight">complex problems</span> through <span class="highlight">innovative research</span></p>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/rosy-wang-38166a29b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:wangyiru9159@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> About Me</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>👋 Hi, I'm Yiru Wang, a Computer Science student at the University of Alberta with a strong interest in both software development and artificial intelligence. My passion lies in finding meaningful ways to combine these two fields, since building intelligent systems that are practical, impactful, and user-centered 🚀.</p>
+                        <p>☕️ Fun fact: While I’m allergic to coffee, I genuinely enjoy the craft of making it, which is a small contradiction that reflects my curiosity and love for thoughtful creation.</p>
+                        <p>📧 Feel free to connect! I’m always open to new ideas, collaborations, or just a good conversation.</p>
+                        
+                        <div class="terminal-box">
+                            <div class="terminal-header">
+                                <span class="terminal-dot red"></span>
+                                <span class="terminal-dot yellow"></span>
+                                <span class="terminal-dot green"></span>
+                                <span class="terminal-title">yiru@portfolio:~</span>
+                            </div>
+                            <div class="terminal-body">
+                                <p><span class="command">$ cat contact_info.txt</span></p>
+                                <p>Email: wangyiru9159@gmail.com</p>
+                                <p>Phone: 587-937-6351</p>
+                                <p>Location: Edmonton, Canada</p>
+                                <p><span class="command">$ cat research_interests.txt</span></p>
+                                <div id="research-interests-container">
+                                    <div class="research-interest">
+                                        <p class="research-field">Software Engineering + AI</p>
+                                    </div>
+                                    <div class="research-interest">
+                                        <p class="research-field">Software Systems for Robotics</p>
+                                    </div>
+                                </div>
+                                <p><span class="command">$</span><span class="terminal-cursor">_</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Education</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="education-container" id="education-container">
+                    <div class="education-item">
+                        <div class="item-header">
+                            <div class="item-title">👩‍🏫 BSc, honors</div>
+                            <div class="item-date">Apr 2027</div>
+                        </div>
+                        <div class="item-subtitle">🏫 University of Alberta</div>
+                        <div class="item-field">💻 Computer Science</div>
+                        <div class="item-thesis">
+                            <strong>Thesis:</strong> (I love swimming 🏊 !!!)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Work Experience</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="experience-container" id="experience-container">
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">🧑‍💻 Software Developer</div>
+                            <div class="item-date">May 2025 – Current</div>
+                        </div>
+                        <div class="item-subtitle">Ualberta Future Creators</div>
+                        <ul class="item-description">
+                            <li>Guided a student group through a 6-week web development project, leading the design, implementation, and deployment of a dynamic website.</li>
+                            <li>Facilitated interactive coding workshops focused on front-end and back-end web technologies.</li>
+                            <li>Managed and maintained the UAFC club's official website, enhancing site performance and updating content.</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">Python (Django)</span>
+                            <span class="technique-tag">JavaScript</span>
+                            <span class="technique-tag">HTML</span>
+                            <span class="technique-tag">CSS</span>
+                            <span class="technique-tag">SQLite3</span>
+                            <span class="technique-tag">browser DevTools</span>
+                        </div>
+                    </div>
+                    
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">🧑‍💻 Software Engineer Intern</div>
+                            <div class="item-date">Jan 2025 – May 2025</div>
+                        </div>
+                        <div class="item-subtitle">Rednote (E-commerce Pricing Team)</div>
+                        <ul class="item-description">
+                            <li>Implemented a static pricing model matching 95% of dynamic pricing revenue while reducing compute costs by 30%.</li>
+                            <li>Ran A/B tests on 3 million users, demonstrating a 4% lift in conversion rate.</li>
+                            <li>Refactored existing pricing service, cutting model footprint by 25%.</li>
+                            <li>Built real-time monitoring dashboards to track price elasticity and anomaly alerts.</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">Python</span>
+                            <span class="technique-tag">SQL</span>
+                            <span class="technique-tag">Dash</span>
+                        </div>
+                    </div>
+                    
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">🧑‍💻 Software Engineer Intern</div>
+                            <div class="item-date">Jun 2024 – Sep 2024</div>
+                        </div>
+                        <div class="item-subtitle">TAL Education (AI Product Team)</div>
+                        <ul class="item-description">
+                            <li>Containerized and deployed models on Azure Kubernetes Service for real-time inference.</li>
+                            <li>Evaluated user engagement data to refine recommendations, boosting course completion and study time.</li>
+                            <li>Led team rituals and authored a public onboarding wiki.</li>
+                            <li>Implemented an Azure DevOps CI/CD pipeline to automate model retraining and deployment.</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">Azure Kubernetes</span>
+                            <span class="technique-tag">Azure DevOps CI/CD pipeline</span>
+                        </div>
+                    </div>
+                    
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">🧑‍💻 Research Assistant</div>
+                            <div class="item-date">Sep 2024 – Dec 2024</div>
+                        </div>
+                        <div class="item-subtitle">University of Alberta</div>
+                        <ul class="item-description">
+                            <li>Conducted applied research in online and convex optimization.</li>
+                            <li>Designed and implemented optimization algorithms in Python and NumPy.</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">Python</span>
+                            <span class="technique-tag">NumPy</span>
+                            <span class="technique-tag">algorithm optimization</span>
+                        </div>
+                    </div>
+                    
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">🧑‍🏫 Teaching Assistant</div>
+                            <div class="item-date">May 2025 – July 2025</div>
+                        </div>
+                        <div class="item-subtitle">University of Alberta</div>
+                        <ul class="item-description">
+                            <li>Led weekly lab sessions for CMPUT 174, guiding 90+ first-year students through Python programming fundamentals and hands-on exercises in an engaging, accessible manner.</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">python</span>
+                            <span class="technique-tag">OOP</span>
+                        </div>
+                    </div>
+                    
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">🧑‍💻 Software Developer</div>
+                            <div class="item-date">Nov 2024 - Current</div>
+                        </div>
+                        <div class="item-subtitle">Google Developer Students Club</div>
+                        <ul class="item-description">
+                            <li>Participated in coding events and backend-focused projects using Java and Spring Boot</li>
+                            <li>Built RESTful APIs, integrated MySQL, and implemented authentication with Spring Security</li>
+                            <li>Contributed to CI/CD workflows with GitHub Actions and deployed services using Docker</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">Java, Spring Boot, Spring Security, RESTful APIs, MySQL, JPA, Docker, Git, GitHub Actions, JUnit</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Projects</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="projects-grid" id="projects-container">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-folder-open"></i>
+                        </div>
+                        <h3 class="project-title">1️⃣ MoodTracker</h3>
+                        <p class="project-duration">Jan 2025 - April 2025</p>
+                        <p class="project-description">📱 MoodTracker is an Android application designed for emotional health management, enabling users to record, analyze, and visualize their daily moods. The project leverages Firestore as a real-time cloud database to support cross-device data synchronization, and follows an industrial-grade architecture (MVVM + Repository pattern) to ensure high modularity, maintainability, and scalability.</p>
+                        <div class="project-tech">
+                            <span>java, android studio, CI/CD, database</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-folder-open"></i>
+                        </div>
+                        <h3 class="project-title">2️⃣ genAI study planner</h3>
+                        <p class="project-duration">Oct 2024 - Nov 2024</p>
+                        <p class="project-description">🤖 AI Study Planner is a GenAI-powered learning assistant that generates personalized study plans based on users’ goals, timelines, and skill levels. It integrates ChatGPT-4o as an agent to parse natural language inputs and dynamically synthesize structured study schedules. The backend is built with Flask and deployed as a lightweight REST API on Azure Functions, enabling scalable, serverless access. The system uses a pre-trained LLM agent wrapped in a .pkl file for efficient inference and response generation. The design emphasizes modularity, low-latency interaction, and easy extensibility for future AI fine-tuning or multi-agent coordination.</p>
+                        <div class="project-tech">
+                            <span>python, LLM, Azure</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Technical Skills</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Programming Languages</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-js"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-code"></i>
+                                <span>C/C++</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-java"></i>
+                                <span>Java</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Machine Learning</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <i class="fas fa-brain"></i>
+                                <span>Tensorflow</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-brain"></i>
+                                <span>Pytorch</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Tools & Technologies</h3>
+                        <div class="skill-items" id="technical-skills-container">
+                            <div class="skill-item">
+                                <i class="fab fa-docker"></i>
+                                <span>Docker</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-dharmachakra"></i>
+                                <span>Kubernetes</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-aws"></i>
+                                <span>AWS</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-google"></i>
+                                <span>Azure</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="awards">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Honors & Awards</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="awards-container" id="awards-container">
+                    <div class="award-item">
+                        <div class="item-header">
+                            <div class="item-title">🥇 University of Alberta Undergraduate Scholarship</div>
+                            <div class="item-date">📅 2024–2025</div>
+                        </div>
+                        <div class="item-subtitle">🏫 University of Alberta</div>
+                    </div>
+                    
+                    <div class="award-item">
+                        <div class="item-header">
+                            <div class="item-title">🥇 The Diane Reader Jones Award for Women in Computing Science</div>
+                            <div class="item-date">📅 2024–2025</div>
+                        </div>
+                        <div class="item-subtitle">🏫 University of Alberta</div>
+                    </div>
+                    
+                    <div class="award-item">
+                        <div class="item-header">
+                            <div class="item-title">🥇 Dean’s List</div>
+                            <div class="item-date">📅 2024-2025</div>
+                        </div>
+                        <div class="item-subtitle">🏫 University of Alberta</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Contact Me</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-text">
+                        <p>I'm always open to research collaborations and interesting projects. Feel free to reach out!</p>
+                    </div>
+                    <div class="contact-methods">
+                        <a href="mailto:wangyiru9159@gmail.com" class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>wangyiru9159@gmail.com</span>
+                        </a>
+                        <a href="https://linkedin.com/in/rosy-wang-38166a29b/" target="_blank" class="contact-method">
+                            <i class="fab fa-linkedin"></i>
+                            <span>linkedin.com/in/rosy-wang-38166a29b/</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>© 2025 Yiru Wang | Computer Science Student</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://github.com/giugiu999" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/rosy-wang-38166a29b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:wangyiru9159@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
